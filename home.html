@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> IT Help Desk 2022</title>
+    </head>
+    <body>
+        <h1>Welcome to IT Help Desk 2022 here to answer all IT questions and concerns</h1>
+        <p>Login Here</p>
+        <div id="newform">
+            <div id="form">
+                <label for="Username">Username or Email</label>
+                <br><br>
+                <input type="text">
+                <br><br>
+                <label for="Password">Password</label>
+                <br><br>
+                <input type="text">
+                <br><br>
+                <button>Login</button>
+            </div>
+            <p>If you don't have an account <button>Sign Up Here</button></p>
+            <p>Help Site 1-<a href="https://www.zendesk.com">Zendesk</a></p>
+            <p>Help Site 2-<a href="https://www.helpdesk.com">Help Desk</a></p>
+            <p>Help Site 3-<a href="https://www.webhelpdesk.com">Web Help Desk</a></p>
+            <p>Video-<a href="https://www.youtube.com/watch?v=gMU5bngGQ1E">IT Help</a></p>
+            <head>
+                <meta charset="UTF-8">
+                <title>Date</title>
+                <script>
+                    function displayDate() {
+                        document.getElementById("showDate").innerHTML = Date();
+                    }
+                </script>
+            </head>
+            <body>
+                <button type="button" onclick="displayDate()">Date</button>
+                <p id="showDate"></p>
+            </body>
+        </div>
+    </body>
+</html>
