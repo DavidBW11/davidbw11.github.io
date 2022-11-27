@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(190, 186, 185);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(9, 4, 4);
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(0, 213, 255);
+  padding: 10px;
+  text-align: center;
+  color: rgb(7, 6, 6);
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Disclaimer:</h2>
+<p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that 
+    you’ve provided to them or that they’ve collected from your use of their services.</p>
+    <header>
+        <h2>Contact</h2>
+      </header>
+      <article>
+        <p>Contact us for pricing and more
+            via email at campscoobrocks@gmail.com
+            and via phone at 770-123-4567.<p></p>
+            <header>
+                <h2>Want answers now?
+                    Fill out our 24/7
+                    website assistant form 
+                    and we'll respond ASAP.
+                </h2>
+              </header>
+              <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
