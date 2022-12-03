@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Water Fun</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(55, 20, 194);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(237, 231, 231);
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(238, 243, 236);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #5cc420;
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(30, 255, 0);
+  padding: 10px;
+  text-align: center;
+  color: rgb(244, 243, 243);
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Disclaimer:</h2>
+<p>We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that 
+    you’ve provided to them or that they’ve collected from your use of their services.</p>
+
+<header>
+  <h2>Experiences</h2>
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="Downloads/hiking.jpeg" style="width:100%">
+      <div class="text">Hiking</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="Downloads/fishing.jpeg" style="width:100%">
+      <div class="text">Fishing</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="Downloads/kayak.jpeg" style="width:100%">
+      <div class="text">Kayaking</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="Downloads/jetskiing.jpeg" style="width:100%">
+        <div class="text">Jetskis</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="Downloads/canoe.jpeg" style="width:100%">
+        <div class="text">Canoeing</div>
+      </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
